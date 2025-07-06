@@ -1,4 +1,6 @@
 #OPERAÇÕES-Operadores Aritméticos
+#ORDEM DOS OPERADORES 
+#1-Parênteses() 2-Exponenciação** 3-Multiplicação* 4-Divisão/ 5-Div.Inteira// 6-Módulo% 7-Adição+ 8-Subtração-
 #Operações matemáticas básicas com Números
 
 #Adição 
