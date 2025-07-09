@@ -22,8 +22,9 @@ print(5**2)
 print(36/4)
 print(10/3)
 
-#Divisão(int)
-#Retornar um int> Se o quociente real for um valor decimal, apenas um número inteiro irá retornar
+"""Divisão(int)
+Retornar um int - Se o quociente real for um valor decimal, 
+ um número inteiro irá retornar"""
 print(10/3)
 print(19/6)
 
@@ -34,10 +35,10 @@ print(10%3)
 print("foo"*5)
 print('x'*3)
 
-#---ATENÇÃO---
-#NÃO PODE CONCATENAR UM int COM UMA string ---> necessidade de computar int com uma string
-#-ERRO print("hello" + 5)
-#-CORRETO
+"""---ATENÇÃO---
+NÃO PODE CONCATENAR UM int COM UMA string ---> necessidade de computar int com uma string
+-ERRO print("hello" + 5)
+-CORRETO"""
 print("hello" + str(5)) #Dessa se converte o dado int em string.
 
 #Adição de String = concatenação

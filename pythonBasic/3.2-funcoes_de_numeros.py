@@ -1,6 +1,8 @@
 #arredondando valores 
 num1 = 25.234
-print(round(num1, 1))  # Arredonda para o inteiro mais próximo, o numero após a virgula dita quantas casas decimais irão aparecer após a virgula.
+print(round(num1, 1)) 
+"""Arredonda para o inteiro mais próximo, o numero após a virgula 
+dita quantas casas decimais irão aparecer após a virgula."""
 
 #facilitando exponenciação
 print(pow(2, 4))

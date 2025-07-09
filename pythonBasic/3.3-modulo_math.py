@@ -1,4 +1,7 @@
-#MÓDULO = conjunto de códigos que guardam funções para facilitar sua utilização quando chamadas. Pois depois de importado o  Math é só chamar a função sem a necessidade de escrever o código da mesma em si.
+"""MÓDULO = conjunto de códigos que guardam funções 
+para facilitar sua utilização quando chamadas. Pois depois de importado o  Math 
+é só chamar a função sem a necessidade de escrever o código da mesma em si."""
+
 #import é a função que chama todas as demais.
 import math
 
