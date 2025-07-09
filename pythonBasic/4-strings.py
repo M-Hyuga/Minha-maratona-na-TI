@@ -1,13 +1,14 @@
 #Cada letra numa string é  guardada numa posição essa posição é chamada de INDEX. Por isso o termo INDEXAÇÂO para o tratamento de encontrar o caractere numa string.
 
 mensagem = 'Oi! Meu nome é Hyuga' 
+print(mensagem)
 mensagem1 = " Uma mensagem com aspas duplas hehhe"
 mensagem2 = """
 Uau!
 Uma mensagem com várias linhas.
 Que legal! :D
 """
-print(mensagem)
+
 
 #Indexação (mostrando a informação da mensagem baseado na posição ao qual cada letra se encontra, começando do número 0.)
 print(mensagem[0])
