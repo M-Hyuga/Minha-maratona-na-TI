@@ -12,3 +12,4 @@ print(min(lista))
 
 #somar numeros dentro de uma lista 
 print(sum([1,43,56,78,33,21]))
+
