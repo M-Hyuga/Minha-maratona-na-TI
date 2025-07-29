@@ -7,7 +7,7 @@ import math
 
 
 #mostrar o teto de um número (arredonda pra cima)
-print(math.ceil(4))
+print(math.ceil(4,80))
 
 #mostrar o número arredondado pra baixo
 print(math.floor(4.1))

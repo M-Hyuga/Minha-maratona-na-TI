@@ -55,7 +55,7 @@ pro1 += 3 #todo valor atribuido a pro1 será acrescentado +3
 
 pro1**= 3 #todo valor atribuido a pro1 será elevado ao cubo
 
-#COMPARADORES- retornar valor booleano
+#operador de COMPARADORES- retornar valor booleano
 
 #igualdade == -deve ser sinais de igual duplos, um sinal de igual único é atribuição
 print(5==5.0)
