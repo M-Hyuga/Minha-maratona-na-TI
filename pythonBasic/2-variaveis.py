@@ -1,41 +1,35 @@
 
-#Variáveis:um conjunto que contém algumas informações.
+#Variáveis = um espaço no código para armazenar dados.(pense como se fosse uma gaveta que armazena apenas 1 tipo de coisa. )
+
 
 """Regras de criação:
 -Case-sensitive (ou seja, caracteres em caixa alta ou baixa são tratados como diferentes)
 -DEVE começar com uma letra ou um sublinhado; NÃO PODE começar com números.
 -NÃO PODE ser o mesmo nome que as palavras-chave Python (por exemplo, class, finally, etc.)
--NÃO especificar o tipo de informação armazenada na variável.""" 
+-Especificar o tipo de informação armazenada na variável.""" 
 
 # TIPOS DE DADOS
 
-#armazenando um int
+#int = numeros inteiros
 idade = 12
 
-#armazenando uma string (str)
+#string (str) =  caractere (não apenas textos, tudo que tiver antre aspas...)
 helloMessage = "Hello World!"
 first_name = "John"
 
-#armazenando um caractere (str)
-character_example = 'a'
-
-#armazenando um float (float)
+#float (float) =  números fracionados (números em fração..números quebrados...)
 _newFloat = 1.0
 
-#armazenando um valor booleano (bool)
+# booleano (bool) = valores binários; 1 = true\ 0 = false (usados geralmente quanto existe condições que precisam de verificação.)
 bool_Condition = True
 
-#A função utilizada pelo python pra vizualizar o resutado do que foi programado é a 'print'
-
-#PARA VISUALIZAR RESULTADO NO TERMINAL CLIQUE ctrl + ' (aspas)
-
+#print =  FUNÇÃO, utilizada para mostrar resultado do código no terminal.
 print(helloMessage)
 print(first_name)
-print(character_example)
 print(_newFloat)
 print(bool_Condition)
  
-#FUNÇÃO "type"(mostra o tipo de dado que a variavél está guardando)
+#type = FUNÇÃO, mostra o tipo de dado que a variavél está guardando.
 
 print(type(idade))
  # A partir da declaração acima idade é int , então esperamos que a função retorne int.

@@ -12,3 +12,6 @@ com mais de uma linha.
 ( e se você é iniciante, saiba que na maioria das linguagens 
 é necessário usar ; no fim de cada linha de código.)"""
 
+#PARA VISUALIZAR RESULTADO NO TERMINAL CLIQUE ctrl + ' (aspas)
+
+#type = FUNÇÃO, mostra o tipo de dado que a variavél está guardando.
