@@ -1,3 +1,4 @@
+'''
 """Como muitas outras linguagens de programação populares, 
 strings em Python são matrizes de bytes representando caracteres unicode.
 _by.w3schools.com"""
@@ -31,3 +32,8 @@ print(mensagem[14:20])#aqui irá mostrar meu nome inteiro pois começa a partir 
 print(mensagem[0:-1]) #serve pra mostrar o último caractere de uma string, levando em consideração que você não saiba o tamanho da string e nem a posição do último caractere.
 
 #Se a partir disso você raciocinar bem, da pra fazer coisas bem legais.
+'''
+
+#Método rstrip() = usado para apagar espaços em branco das strings quando necessário.
+name ="Mônica Nascimento "
+print(name.rstrip())

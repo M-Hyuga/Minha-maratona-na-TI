@@ -1,4 +1,4 @@
-
+'''
 #Variáveis = um espaço no código para armazenar dados.(pense como se fosse uma gaveta que armazena apenas 1 tipo de coisa. )
 
 
@@ -39,3 +39,5 @@ print(type(idade))
 _newInt = int(_newFloat)
 
 print(type(_newInt))
+'''
+
