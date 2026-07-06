@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #e6e6e6; /* Fundo cinza claro da página */
+    color: #333;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: #f6b504; /* Amarelo/Laranja do topo */
+    text-align: center;
+    padding: 40px 0 20px;
+}
+
+.logo h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.logo .text-dark {
+    color: #555;
+}
+
+.logo .text-white {
+    color: #fff;
+}
+
+nav ul {
+    list-style: none; /* referente ao estilo padrão das listas, nessa situação tirou o estilo básico */
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none; /* tira o estilo padrão do link*/
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1 rem;
+}
+
+nav ul li a:hover {
+    color: #555;
+}
+
+/* Layout Principal*/
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+/*Conteudo principal (postagens)*/
+.content {
+    flex: 3; /* Ocupa 3 partes do espaço disponivel*/
+}
+
+.post {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Sombra leve para destacar do fundo */
+}
+
+.post h2 {
+    color:#f6b504 ;
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.post .date {
+    font-size: ;
+    color: ;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
